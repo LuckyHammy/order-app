@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#d4d4a1"
+    android:padding="8dp"
+    tools:ignore="ExtraText">
+
+    <!-- Order ID -->
+    <TextView
+        android:id="@+id/order_id"
+        android:layout_width="47dp"
+        android:layout_height="66dp"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:text="832616"
+        android:textSize="16sp" />
+
+    <!-- Delivery Type -->
+    <TextView
+        android:id="@+id/delivery_type"
+        android:layout_width="49dp"
+        android:layout_height="67dp"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:text="Delivery"
+        android:textSize="16sp" />
+
+    <!-- Payment Type -->
+    <TextView
+        android:id="@+id/payment_type"
+        android:layout_width="46dp"
+        android:layout_height="68dp"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:text="CASH"
+        android:textSize="16sp" />
+
+    <!-- Customer Name -->
+
+    <!-- Contact Number -->
+
+    <TextView
+        android:id="@+id/customer_name"
+        android:layout_width="28dp"
+        android:layout_height="67dp"
+        android:layout_weight="2"
+        android:padding="4dp"
+        android:text="sam biswas Mr/Mrs"
+        android:textSize="16sp" />
+
+    <!-- Info Icon -->
+    <TextView
+        android:id="@+id/contact_number"
+        android:layout_width="42dp"
+        android:layout_height="69dp"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:text="0894215730"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/info_button"
+        android:layout_width="51dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center_vertical"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Info"
+        android:padding="4dp"
+        android:src="@drawable/ic_info" />
+</LinearLayout>
